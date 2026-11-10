@@ -6,33 +6,33 @@
 
 O **PokéCalc RB** é um aplicativo mobile nativo para Android que implementa a fórmula clássica de cálculo de dano da Geração 1 de Pokémon. O usuário escolhe o Pokémon atacante, o defensor (IDs #1 a #151), os níveis e um golpe específico. O aplicativo busca e processa os dados diretamente na **PokéAPI** e exibe:
 
-* **Dano mínimo e máximo**, com e sem acerto crítico.
+- **Dano mínimo e máximo**, com e sem acerto crítico.
 
-* **Porcentagem do HP** do defensor consumida.
+- **Porcentagem do HP** do defensor consumida.
 
-* **Número de golpes necessários** para o nocaute (2HKO, 3HKO, etc.).
+- **Número de golpes necessários** para o nocaute (2HKO, 3HKO, etc.).
 
-* **Efetividade do tipo** baseada estritamente nas regras e bugs da Gen 1 (ex: Fantasma contra Psíquico = $0\times$).
+- **Efetividade do tipo** baseada estritamente nas regras e bugs da Gen 1 (ex: Fantasma contra Psíquico = $0\times$).
 
-* **Histórico pessoal** de cálculos salvos por usuário.
+- **Histórico pessoal** de cálculos salvos por usuário.
 
 ## Funcionalidades
 
-* **Autenticação Segura:** Cadastro e login de usuários com senhas protegidas por hash **BCrypt** com *salt*. Sessão persistente pós-fechamento e gerenciamento de logout.
+- **Autenticação Segura:** Cadastro e login de usuários com senhas protegidas por hash **BCrypt** com *salt*. Sessão persistente pós-fechamento e gerenciamento de logout.
 
-* **Calculadora Gen 1 Fiel:** Implementação da fórmula oficial da primeira geração (STAB, crítico, regra do 255 e tabela de tipos original). Campos com autocompletar inteligente para Pokémon e golpes.
+- **Calculadora Gen 1 Fiel:** Implementação da fórmula oficial da primeira geração (STAB, crítico, regra do 255 e tabela de tipos original). Campos com autocompletar inteligente para Pokémon e golpes.
 
-* **Dados Históricos Reais:** Uso dos parâmetros `past_types`, `past_stats` e `past_values` da PokéAPI para garantir que as características da época sejam respeitadas (ex: Magnemite puramente Elétrico, *Bite* do tipo Normal e Clefairy Normal).
+- **Dados Históricos Reais:** Uso dos parâmetros `past_types`, `past_stats` e `past_values` da PokéAPI para garantir que as características da época sejam respeitadas (ex: Magnemite puramente Elétrico, *Bite* do tipo Normal e Clefairy Normal).
 
-* **Modo Offline (Room):** Cada Pokémon e golpe consultado é armazenado em banco de dados local via **Room**, permitindo novos cálculos sem conexão com a internet.
+- **Modo Offline (Room):** Cada Pokémon e golpe consultado é armazenado em banco de dados local via **Room**, permitindo novos cálculos sem conexão com a internet.
 
-* **Histórico Pessoal:** Cada usuário visualiza e gerencia exclusivamente o seu próprio histórico de cálculos.
+- **Histórico Pessoal:** Cada usuário visualiza e gerencia exclusivamente o seu próprio histórico de cálculos.
 
-* **Sistema de Notificações:** Notificação interativa ao salvar um cálculo (o toque direciona diretamente para a tela de histórico).
+- **Sistema de Notificações:** Notificação interativa ao salvar um cálculo (o toque direciona diretamente para a tela de histórico).
 
-* **Perfil de Usuário:** Tela dedicada para alteração de nome, e-mail e senha, com suporte a foto de perfil obtida via **Câmera** ou **Photo Picker** (Galeria).
+- **Perfil de Usuário:** Tela dedicada para alteração de nome, e-mail e senha, com suporte a foto de perfil obtida via **Câmera** ou **Photo Picker** (Galeria).
 
-* **Splash Screen:** Inicialização fluida utilizando a *Splash Screen API* oficial do Android.
+- **Splash Screen:** Inicialização fluida utilizando a *Splash Screen API* oficial do Android.
 
 ## Tecnologias e Arquitetura
 
@@ -99,17 +99,17 @@ O executável compilado estará disponível em:
 
 ## Testes
 
-* **Testes Unitários (JUnit):** Validam matematicamente a fórmula de dano, tabela de tipos e regras específicas da Geração 1.
+- **Testes Unitários (JUnit):** Validam matematicamente a fórmula de dano, tabela de tipos e regras específicas da Geração 1.
 
-  * *Localização do arquivo:* `PokeCalcRB/app/src/test/java/br/ufms/pokecalcrb/domain/CalculadoraGen1Test.java`
+- *Localização do arquivo:* `PokeCalcRB/app/src/test/java/br/ufms/pokecalcrb/domain/CalculadoraGen1Test.java`
 
-  * *Para rodar via terminal:*
+- *Para rodar via terminal:*
 
     ```bash
     ./gradlew test
     ```
 
-* **Testes de Caixa-Preta:** Com 43 casos de teste validados com sucesso em emulador Android 15. Os resultados detalhados por caso encontram-se na seção 11 da especificação, com evidências visuais em `docs/prints`.
+- **Testes de Caixa-Preta:** Com 43 casos de teste validados com sucesso em emulador Android 15. Os resultados detalhados por caso encontram-se na seção 11 da especificação, com evidências visuais em `docs/prints`.
 
 ## Documentação
 
@@ -118,9 +118,9 @@ A especificação técnica completa contendo os papéis de usuário, requisitos 
 
 ## Equipe
 
-* **Laryssa Bernardo Aderno**
-* **Arthur Irineu de Souza Ortiz**
-* **Laura Santa Cruz Rodrigues**
+- **Laryssa Bernardo Aderno**
+- **Arthur Irineu de Souza Ortiz**
+- **Laura Santa Cruz Rodrigues**
 
 ## Aviso Legal
 
