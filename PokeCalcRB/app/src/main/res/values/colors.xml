@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Contraste verificado: texto branco sobre #B71C1C = 6,6:1 (WCAG AA) -->
+    <color name="vermelho">#B71C1C</color>
+    <color name="vermelho_escuro">#7F0000</color>
+    <color name="vermelho_claro">#FFB4A9</color>
+    <color name="amarelo">#FFD54F</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="erro">#B00020</color>
+    <color name="ic_launcher_background">#B71C1C</color>
+    <color name="splash_fundo">#B71C1C</color>
+</resources>

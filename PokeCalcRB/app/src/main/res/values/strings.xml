@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PokéCalc RB</string>
+
+    <!-- Login / cadastro -->
+    <string name="login_titulo">Entrar</string>
+    <string name="login_subtitulo">Calculadora de dano da Geração 1</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="nome">Nome</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="ir_cadastro">Não tem conta? Cadastre-se</string>
+    <string name="cadastro_titulo">Criar conta</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="voltar">Voltar</string>
+    <string name="dica_senha">Mínimo de 6 caracteres</string>
+    <string name="erro_informe_senha">Informe a senha</string>
+    <string name="desc_logo">Logotipo do PokéCalc RB</string>
+
+    <!-- Main -->
+    <string name="ola_usuario">Olá, %1$s</string>
+    <string name="aba_calculadora">Calculadora</string>
+    <string name="aba_historico">Histórico</string>
+    <string name="aba_perfil">Perfil</string>
+    <string name="sair">Sair</string>
+    <string name="sair_titulo">Sair da conta?</string>
+    <string name="sair_mensagem">Você precisará entrar de novo para usar a calculadora.</string>
+    <string name="logout_ok">Você saiu da conta.</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="ativar">Ativar</string>
+    <string name="permitir">Permitir</string>
+
+    <!-- Calculadora -->
+    <string name="atacante">Atacante</string>
+    <string name="defensor">Defensor</string>
+    <string name="hint_pokemon">Nome ou número (1 a 151)</string>
+    <string name="nivel">Nível</string>
+    <string name="hint_nivel">1 a 100</string>
+    <string name="golpe">Golpe</string>
+    <string name="hint_golpe">Ex.: flamethrower, thunderbolt</string>
+    <string name="calcular">Calcular dano</string>
+    <string name="salvar_historico">Salvar no histórico</string>
+    <string name="ja_salvo">Salvo no histórico</string>
+    <string name="erro_pokemon_vazio">Informe o nome ou o número do Pokémon</string>
+    <string name="erro_golpe_vazio">Informe o golpe</string>
+    <string name="erro_nivel">Nível deve ser de 1 a 100</string>
+    <string name="resultado">Resultado</string>
+    <string name="contra">contra</string>
+    <string name="nome_nivel">#%1$d %2$s · Nv %3$d</string>
+    <string name="desc_sprite">Imagem de %1$s</string>
+    <string name="fisico">Físico</string>
+    <string name="especial">Especial</string>
+    <string name="com_stab">· STAB 1,5x</string>
+    <string name="golpe_info">%1$s · %2$s · Poder %3$d · %4$s %5$s</string>
+    <string name="stats_fisico">Ataque %1$d x Defesa %2$d · HP do defensor: %3$d</string>
+    <string name="stats_especial">Special %1$d x Special %2$d · HP do defensor: %3$d</string>
+    <string name="dano_normal">Normal: %1$d – %2$d HP (%3$s a %4$s)</string>
+    <string name="dano_critico">Crítico: %1$d – %2$d HP (%3$s a %4$s)</string>
+    <string name="chance_critico">Chance de crítico do atacante: %1$s</string>
+    <string name="config_fixa">Configuração fixa: DV 15 e Stat Exp máximo.</string>
+    <string name="calculo_salvo">Cálculo salvo no histórico</string>
+    <string name="calculo_salvo_sem_notif">Cálculo salvo. As notificações estão desativadas.</string>
+    <string name="resumo_acessivel">%1$s contra %2$s: de %3$d a %4$d de dano. %5$s</string>
+
+    <!-- Histórico -->
+    <string name="historico_vazio">Nenhum cálculo salvo ainda.\nFaça um cálculo e toque em “Salvar no histórico”.</string>
+    <string name="item_titulo">%1$s → %2$s</string>
+    <string name="item_detalhe">%1$s · Nv %2$d vs Nv %3$d</string>
+    <string name="item_dano">Dano %1$d–%2$d · Crítico %3$d–%4$d · HP %5$d</string>
+    <string name="desc_apagar">Apagar cálculo %1$s contra %2$s</string>
+    <string name="apagar">Apagar</string>
+    <string name="apagar_titulo">Apagar cálculo?</string>
+    <string name="apagar_mensagem">O cálculo %1$s → %2$s será removido do histórico.</string>
+    <string name="apagado">Cálculo apagado</string>
+
+    <!-- Perfil -->
+    <string name="desc_foto_perfil">Foto de perfil</string>
+    <string name="tirar_foto">Câmera</string>
+    <string name="usar_galeria">Galeria</string>
+    <string name="salvar_perfil">Salvar alterações</string>
+    <string name="trocar_senha">Alterar senha</string>
+    <string name="senha_atual">Senha atual</string>
+    <string name="nova_senha">Nova senha</string>
+    <string name="erro_senha_atual">Informe a senha atual</string>
+    <string name="sair_conta">Sair da conta</string>
+    <string name="permissao_camera_titulo">Permissão de câmera</string>
+    <string name="permissao_camera_explicacao">A câmera é usada só para tirar a sua foto de perfil. Se preferir, escolha uma imagem da galeria.</string>
+    <string name="camera_negada">Sem permissão de câmera. Você pode escolher uma foto da galeria.</string>
+    <string name="sem_camera">Este aparelho não tem câmera.</string>
+    <string name="sem_app_camera">Nenhum app de câmera disponível.</string>
+    <string name="dados_conta">Dados da conta</string>
+    <string name="seguranca">Segurança</string>
+
+    <!-- Notificações -->
+    <string name="canal_historico_nome">Histórico de cálculos</string>
+    <string name="canal_historico_desc">Avisa quando um cálculo é salvo no histórico</string>
+    <string name="notif_titulo">PokéCalc RB</string>
+    <string name="notif_negada">Notificações negadas: o app funciona normalmente, mas não vai avisar ao salvar.</string>
+</resources>

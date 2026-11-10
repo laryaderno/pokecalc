@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pasta interna onde a câmera grava a foto de perfil (compartilhada só via FileProvider). -->
+<paths>
+    <files-path name="fotos" path="fotos/" />
+</paths>

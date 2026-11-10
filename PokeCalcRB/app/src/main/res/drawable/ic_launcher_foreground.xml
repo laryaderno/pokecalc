@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Anel branco -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M54,26a28,28 0,1 0,0 56a28,28 0,1 0,0 -56z" />
+    <!-- Raio amarelo (dano) -->
+    <group
+        android:translateX="30"
+        android:translateY="30"
+        android:scaleX="2"
+        android:scaleY="2">
+        <path
+            android:fillColor="#FFFFD54F"
+            android:pathData="M7,2v11h3v9l7,-12h-4l4,-8z" />
+    </group>
+</vector>

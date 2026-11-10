@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_calc"
+        android:icon="@drawable/ic_calc"
+        android:title="@string/aba_calculadora" />
+    <item
+        android:id="@+id/nav_historico"
+        android:icon="@drawable/ic_history"
+        android:title="@string/aba_historico" />
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_person"
+        android:title="@string/aba_perfil" />
+</menu>
